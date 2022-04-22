@@ -107,7 +107,7 @@ main p {
 main strong {
     color: var(--cor4);
     font-weight: bold;
-
+    
 }
 
 main a {
@@ -208,13 +208,17 @@ footer {
     padding: 1px;
     border-radius: 5px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.509);
-
+    
 }
 
 footer>p {
 
-    text-align: center;
+   
     font-weight: bolder;
+    color: black;
+    text-align: center;
+
+
 
 }
 
@@ -223,17 +227,23 @@ footer a {
     color: white;
     box-shadow: none;
     background: var(--cor3);
-    padding: 3px;
+    padding: 1px;
+ 
 
 }
 
 footer a:hover {
     text-decoration: underline;
-    background: var(--cor4);
+    background: var(--cor5);
     transition-duration: 0.3s;
-    color: rgba(255, 255, 255, 0.598);
+    color: rgb(255, 255, 255);
 }
 
+a.guanabara{
+    margin: 0px;
+    padding: 1px;
+
+}
 ::-webkit-scrollbar {
     width: 10px;
 }
